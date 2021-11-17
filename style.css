@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#box{
+        text-align: center;
+        padding: 30px 30px;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./image1.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        height: 89.2vh;
+    
+}
+.banner{
+    height: 90px;
+    background-color: white;
+    
+}
+.banner ul {
+    list-style-type: none;
+    
+}
+.banner ul li{
+    float:left;
+    margin: 40px;
+}
+.banner ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.banner ul li a:hover{
+    background-color: rgb(206, 214, 214);
+    border-radius: 10%;
+    padding: 7px 9px;
+}
+h1{
+    font-size: 50px;
+    z-index: 1;
+    margin-top: 150px;
+    color: aliceblue;
+}
+#BUT{
+    margin: 30px;
+    margin-left: 400px;
+    background-color:white;
+    color: black;
+    width: 10%;
+    height: 30px;
+    border-radius: 20px;
+    float: left;
+}
+#BUT:hover{
+    background-color: blue;
+}
+#b{
+    font-style: bold;
+    font-size: 25px;
+    
+}
+p{
+    color:aliceblue;
+    margin-left: 150px ;
+    margin-right: 150px;
+}
+.show-btn{
+    position: fixed;
+    font-size: 18px;
+    color: rgb(75, 71, 71);
+    line-height: 100px;
+    top: 0px;
+    right: 80px;
+  }
+  #chk {
+    position: absolute;
+    z-index: -100;
+  }
+  .f li a i{
+      float: right;
+      padding: 8px;
+      background-color: white;
+      margin: 10px;
+      margin-right: 250px;
+      margin-top: 1px;
+  }
+  .s a i{
+      float: left;
+      background-color: white;
+      margin: 80px;
+      margin-right: 790px;
+  }
+ 
